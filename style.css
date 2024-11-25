@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url(cc.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    margin: 3vw;
+    border-radius: 1rem;
+    height: 80vh;
+    width: 40vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    margin: 2rem 0 1rem 0;
+  }
+  
+.para{
+    font-size: 3vh;
+    font-weight: 400;
+    margin-bottom: 1vh;
+}
+
+.result{
+    font-weight: 550;
+}
+
+  form select,
+  button,
+  input {
+    font-size: 2.5vh;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 6.5vh;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    height: 2.5vh;
+    font-size: 1.7vh;
+    width: auto;
+  }
+
+  .select-container select:hover{
+    cursor: pointer;
+  }
+  
+  .msg {
+    font-size: 2.5vh;
+    font-weight: 300;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #547a94;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
